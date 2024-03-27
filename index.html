@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script src="https://kit.fontawesome.com/03d21647f0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+
+  
+</head>
+<body>
+  <div class="content">
+    <nav class="nav">
+      <div class="nav-left">
+          <div class="nav-bar-open">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+  
+          <div class="logo-div">
+            <img class="logo" src="./images/logo.svg">
+          </div>
+  
+          <div class="bar-list">
+            <ul>
+              <li><i class="fa-solid fa-xmark"></i></li>
+              <li><a href="#">Collections</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="nav-right">
+        <ul class="cart"></i>
+          <li id="avat"><a href=""><i class="fa-solid fa-cart-shopping"></i>
+              <ul class="dropdown">
+                  <li>
+                    <h4>Cart</h4><hr>
+                      <div class="clickClear">
+                        <p class="yooo"></p>
+                        <div class="div">
+                          <div>
+                            <img src="./images/image-product-1.jpg" alt="sneakers" width="50px" height="About" style="border-radius: 10px;">
+                          </div>
+                          <div class="text-pad">
+                              <p>Fall limited Edition Sneakers</p>
+                              <div class="multiplyArea">
+                                <p>$125 x </p>
+                                <input type="number" id="add" value="0" readonly> 
+                                <p id="multi">$<span class="multiply"></span></p>
+                              </div>
+                          </div>
+                          <div>
+                              <button class="trashBtn"><i class="fa-solid fa-trash"></i></button>
+                          </div>
+                        </div>
+                        <button class="checkOut">Checkout</button> 
+                      </div>
+                  </li>
+              </ul>
+          </a></li>
+          <input type="number" id="nu" value="0" readonly>
+          <li id="avatar"><a><img class="image-avatar" src="./images/image-avatar.png" width="30px" height="auto" alt="image-avatar"></a></li>
+        </ul>
+     <div>
+        
+      </div>
+    </nav>
+
+    <div class="main">
+     <div class="sneaker-content">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img class="img" src="images/image-product-1.jpg" alt="sneakers1" />
+          </div>
+          <div class="mySlides fade">
+            <img class="img" src="images/image-product-2.jpg" alt="sneakers2" />
+          </div>
+          <div class="mySlides fade">
+            <img class="img" src="images/image-product-3.jpg" alt="sneakers3" />
+          </div>
+          <div class="mySlides fade">
+            <img class="img" src="images/image-product-4.jpg" alt="sneakers4" />
+          </div>
+
+          <a class="prev" >❮</a>
+          <a class="next" >❯</a>
+        </div>
+        <br>
+        <div class="dot-container">
+          <div class="dotSpan">
+            <span class="dot" id="dot1" ></span > 
+            <span class="dot" id="dot2" ></span> 
+            <span class="dot" id="dot3" ></span> 
+            <span class="dot" id="dot4" ></span> 
+          </div>
+          <div class="img-slide">
+            <img class="dot"  id="do1" src="images/image-product-1.jpg" alt="sneakers1" />
+            <img class="dot" id="do2" src="images/image-product-2.jpg" alt="sneakers2" />
+            <img class="dot"  id="do3"src="images/image-product-3.jpg" alt="sneakers3" />
+            <img class="dot" id="do4" src="images/image-product-4.jpg" alt="sneakers4" />
+          </div>
+      </div>
+     </div>
+      
+
+
+      <div class="text-area">
+        <h4>SNEAKERS COMPANY</h4>
+  
+        <h1>Fall Limited Edition Sneakers</h1>
+  
+        <p>
+          These low-profile sneakers are your perfect casual wear companion. Featuring a 
+          durable rubber outer sole, they’ll withstand everything the weather can offer.
+        </p>
+  
+        <div class="price">
+          <div class="price-change">
+            <h4>$125.00</h4>
+            <p>50%</p></div>
+          <div class="cancle">
+            <p>$250.00</p>
+          </div>
+        </div>
+        
+        <div class="btn-area">
+            <div class="priceGrow">
+              <p class="minus"><i class="fa-solid fa-minus"></i></p>
+              <input type="number" id="num" value="0" readonly>
+              <p class="plus"><i class="fa-solid fa-plus"></i></p>
+            </div>
+            <button class="btnCart"> <i class="fa-solid fa-cart-shopping"></i>  Add to cart</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script src="./index.js"></script>
+</html>
